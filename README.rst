@@ -21,8 +21,8 @@ python setup.py install
 ;session.url = mongodb://192.168.1.245:27017/beaker.sessions
 
 session.type = redis
-;session.url = ss3796@192.168.1.245:5379/1
-session.url = sentinel:ss3796@192.168.1.245:25379/session79/1
+;session.url = ss007@192.168.1.245:5379/1
+session.url = sentinel:ss007@192.168.1.245:25379/session7/1
 session.hkey_prefix =
 session.key =JSESSIONID
 session.block_custom_class = true
